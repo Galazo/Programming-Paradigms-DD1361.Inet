@@ -48,22 +48,36 @@ Kommunikationen
 med dataflödet.
 
 Systemet
+
 1. Man ska kunna logga in med kortnummer och sifferkod
+
 2. Vid varje uttag ska en tvåsiffrig kod matas in och kontrolleras mot en till användaren utskickad kodlista. För 
 att förenkla redovisningen ska samtliga listor hårdkodas till alla udda tal 01, 03, 05 ... 99
+
 3. Banken ska kunna spara tillstånd för flera användare. Olika användare ska kunna logga in och ändra sitt saldo. 
 Vid redovisningen ska minst tre personer finnas inlagda.
+
 4. Menyn som skrivs ut ska innehålla ett fält på max 80 tecken där banken kan skriva välkomsthäl- sningar eller göra 
 reklam för bankens tjänster (jämför en banner på en internetsajt).
+
 5. Banken ska kunna byta meddelande på välkomsthälsningen (till godtycklig sträng) utan att starta om server eller 
 klient.
+
 6. Klientprogrammetskakunnaväljaspråk.Bankenskakunnaerbjudaettnyttspråkutanattklienten behöver göras om.
+
 7. Banken kräver att koden ska kommenteras bra!
+
 Vid redovisning
+
 1. ... ska du ha tre terminalfönster uppe med en server och två klienter som körs.
+
 2. ... ska du visa en illustration över ditt protokoll. Även de enklaste protokoll godkänns bara de är bra illustrerade. Skilj på beskrivningen av datat och dataflödet.
+
 3. ... ska protokolldokumentationen (illustration + kort beskrivning) vara så bra att en godtycklig D-student ska kunna skriva en ny klient utan att behöva fråga om klargöranden.
+
 4. ... ska du kunna redogöra för olika tillstånd i klient och serverdelen.
+
 5. ... ska du ha en editor uppe med all källkod.
+
 6. ... ska du kunna redogöra för alla detaljer i koden. Det är tillåtet att skriva om hela koden.
 
